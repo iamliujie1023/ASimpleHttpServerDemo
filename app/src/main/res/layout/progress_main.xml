@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="上传  (apache by net)" />
+
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="上传 (apache by me)" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="上传 (normal httpUrlConn by me)\n运用该方法传输文件，会显示进度条，但是是我将该文件整个读取到流之后，再发送到服务端。并不是我边发服务端就边接收" />
+            
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="上传(socket by net)" />
+
+            
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="上传 (socket by me)\n实现边发服务端边接收" />
+
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
