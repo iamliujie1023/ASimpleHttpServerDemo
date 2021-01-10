@@ -15,10 +15,10 @@ class SimpleAct : BaseAct() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.socket_service_act)
         btn_start.setOnClickListener {
-            startService()
+            SimpleHTTPServerService.startSocketServer()
         }
         btn_stop.setOnClickListener{
-            stopService()
+            SimpleHTTPServerService.stopSocketServer()
         }
     }
 

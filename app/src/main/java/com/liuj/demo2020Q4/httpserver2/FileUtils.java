@@ -12,7 +12,7 @@ import java.nio.channels.FileChannel;
 /**
  * Created by muscleorange on 14/11/30.
  */
-public class FileExtraUtils {
+public class FileUtils {
 
     /**
      * 判断是否有SD卡

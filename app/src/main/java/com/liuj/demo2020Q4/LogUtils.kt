@@ -2,6 +2,7 @@ package com.liuj.demo2020Q4
 
 import android.util.Log
 import android.widget.Toast
+import java.util.logging.Level
 
 /**
  * @author liuj
@@ -34,6 +35,12 @@ object LogUtils {
     fun i(msg: String?) {
         if (DEBUG) {
             Log.i(TAG, msg!!)
+        }
+    }
+
+    fun log(level : Level, msg: String) {
+        if (DEBUG) {
+            Log.i(TAG, "level=${level.name}, msg=$msg")
         }
     }
 
