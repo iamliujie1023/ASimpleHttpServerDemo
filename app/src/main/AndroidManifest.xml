@@ -28,10 +28,10 @@
         <activity android:name=".socketservice.SocketServiceTestAct"></activity>
         <activity android:name=".httpservice.HTTPServerDemoAct"/>
         <activity android:name=".httpserver2.SimpleAct"/>
+        <activity android:name=".md.appbarlayout.DemoAct"/>
 
         <service android:name=".socketservice.DemoSocketService" />
         <service android:name=".httpservice.HTTPServerDemo"/>
-        <service android:name=".httpserver2.SimpleHTTPServerService"/>
 
     </application>
 

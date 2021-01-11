@@ -8,6 +8,7 @@ import com.liuj.demo2020Q4.R
 import com.liuj.demo2020Q4.base.adapter.BaseRvModel
 import com.liuj.demo2020Q4.httpserver2.SimpleAct
 import com.liuj.demo2020Q4.httpservice.HTTPServerDemoAct
+import com.liuj.demo2020Q4.md.appbarlayout.DemoAct
 import com.liuj.demo2020Q4.socketservice.SocketServiceTestAct
 
 /**
@@ -33,6 +34,7 @@ class MainAct : BaseAct() {
 val data = listOf(
     BaseRvModel("socketService", SocketServiceTestAct::class.java),
     BaseRvModel("HTTPService", HTTPServerDemoAct::class.java),
-    BaseRvModel("SimpleHTTPService", SimpleAct::class.java)
+    BaseRvModel("SimpleHTTPService", SimpleAct::class.java),
+    BaseRvModel("coordinator_demo1_act", DemoAct::class.java)
 
 )
